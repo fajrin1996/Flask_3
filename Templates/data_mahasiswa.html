@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Mahasiswa</title>
+</head>
+<body>
+   <h1>Data Mahasiswa</h1>
+   <hr>
+   <h3>Data Siswa Tahun ajaran 2013/2014</h3>
+   {% for data in data_mahasiswa %} 
+   <h4>{{data.Nama}}</h4> 
+   <h4>{{data.Kelas}}</h4>
+   <h4>{{data.Alamat}}</h4>
+   {% endfor %}
+</body>
+</html>
